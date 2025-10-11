@@ -31,7 +31,7 @@ def main():
     k = int(data[1])
     s = data[2]
 
-    U = sum(1 for c in s if'A' <= c <= 'Z')  # 初始大写数量
+    U = sum(1 for c in s if 'A' <= c <= 'Z')  # 初始大写数量
     L = n - U  # 初始小写数量
 
     if k <= L:
